@@ -7,15 +7,28 @@ messages:
 
   invalid-player: "&cInvalid player!"
   invalid-quest: "&cInvalid quest!"
-  invalid-task: "&cInvalid task! Should be exist in quest."
+  invalid-task: "&cInvalid task! Should be a part of quest."
   invalid-exp-value: "&cInvalid exp value! Should be a double (like 1.0)."
+  not-started_quest: "&cPlayer hasnt started that quest!"
+  not-started_task: "&cPlayer hasnt started that task!"
   already-started: "&cThe player has already started this quest!"
+  already-completed: "&cThe player has already completed that task or haven't started it yet!"
+  amount_required: "&cAmount required"
+
+  quest_progressed: "&aAdded &f%xp% &aXP in quest &f%quest%&a, task &f%task%&a for &f%player%&a!"
+  quest_completed: "&aQuest completed"
+  task_completed: "&aTask completed"
+
 
   started-quest: "&fStarted the &a%quest% &fquest for &a%player%&f!"
   reset-quest-for-player: "&fReset the &a%quest% &fquest for &a%player%&f!"
+  reset-quest-for-player-all: "&fAll quests reset for %player%"
   reset-quest: "&fReset the &a%quest% &fquest!"
   quest-not-resettable: "&cThis quest is not resettable!"
   exp-added: "&aAdded &f%xp% &aXP in quest &f%quest%&a, task &f%task%&a for &f%player%&a!"
+  wipe-quests: "&aQuests wiped!"
+  confirm-time-passed: "&cTime to confirm has passed!"
+  again-confirm: "&cUse that command again to confirm!"
 
 time-since:
   never: "&cNot started yet!"

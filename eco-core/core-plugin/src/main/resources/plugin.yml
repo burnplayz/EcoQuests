@@ -36,6 +36,10 @@ permissions:
       ecoquests.command.reset: true
       ecoquests.command.resetplayer: true
       ecoquests.command.addexp: true
+      ecoquests.command.complete: true
+      ecoquests.command.advance: true
+      ecoquests.command.wipe: true
+      ecoquests.command.resetplayerall: true
 
   ecoquests.command.reload:
     description: Allows reloading the config
@@ -57,4 +61,16 @@ permissions:
     default: op
   ecoquests.command.addexp:
     description: Allows using /ecoquests addexp.
+    default: op
+  ecoquests.command.complete:
+    description: Allows using /ecoquests complete.
+    default: op
+  ecoquests.command.advance:
+    description: Allows using /ecoquests advance.
+    default: op
+ecoquests.command.wipe:
+    description: Allows using /ecoquests wipe.
+    default: op
+ecoquests.command.resetplayerall:
+    description: Allows using /ecoquests resetplayerall.
     default: op
