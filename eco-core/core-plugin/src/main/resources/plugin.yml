@@ -35,7 +35,6 @@ permissions:
       ecoquests.command.start: true
       ecoquests.command.reset: true
       ecoquests.command.resetplayer: true
-      ecoquests.command.addexp: true
       ecoquests.command.complete: true
       ecoquests.command.advance: true
       ecoquests.command.wipe: true
@@ -58,9 +57,6 @@ permissions:
     default: op
   ecoquests.command.resetplayer:
     description: Allows using /ecoquests resetplayer.
-    default: op
-  ecoquests.command.addexp:
-    description: Allows using /ecoquests addexp.
     default: op
   ecoquests.command.complete:
     description: Allows using /ecoquests complete.
